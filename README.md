@@ -1,5 +1,5 @@
-## AlgGraf Teme
-# Alea sunt notele pe care le-am luat eu
+# AlgGraf Teme
+## Alea sunt notele pe care le-am luat eu
 1. Desenare graf // 10
 2. Labirint // 10
 3. Sortare topologica + Componente conexe + Componente tare conexe // 10
