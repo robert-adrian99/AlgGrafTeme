@@ -1,9 +1,9 @@
-# Algoritmica Grafurilor
-## Teme de laborator realizate in Java
-1. Desenare graf
-2. Labirint
-3. Sortare topologica + Componente conexe + Componente tare conexe
-4. Algoritmul lui Prim
-5. Luxemburg (Dijkstra)
-6. Flux maxim
-7. Flux minim
+# Graph Algorithms
+## Laboratory topics made in Java
+1. Drawing a graph
+2. Maze
+3. Topological sorting + Connected components + Strongly Connected Components
+4. Prim's algorithm
+5. Dijkstra's algorithm
+6. Maximum flow
+7. Minimum flow
