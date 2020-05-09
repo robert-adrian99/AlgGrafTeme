@@ -16,11 +16,11 @@ public class Fereastra extends JPanel {
 
     public Fereastra() {
         try {
-            img = ImageIO.read(new File("/Users/robertadrianbucur/Desktop/AlgGrafTeme/src/Tema5/Luxembourg.png"));
+            img = ImageIO.read(new File("src/Tema5/Luxembourg.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
-        listaNoduri = CitireFisierXML.citireNoduri("/Users/robertadrianbucur/Desktop/AlgGrafTeme/src/Tema5/map2.xml");
+        listaNoduri = CitireFisierXML.citireNoduri("src/Tema5/map2.xml");
         //CitireFisierXML.citireLegaturi("/Users/robertadrianbucur/Desktop/AlgGrafTeme/src/Tema5/map2.xml", listaNoduri);
     }
 

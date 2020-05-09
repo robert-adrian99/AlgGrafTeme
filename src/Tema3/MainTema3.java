@@ -12,7 +12,7 @@ public class MainTema3 {
 
     private static void citireListeGrafOrientat()
     {
-        File fisier = new File("/Users/robertadrianbucur/Downloads/_robert99_adrian27-alggraf-a2ef82ab94b5/AlgGrafTeme/src/Tema3/ListeGrafOrientat.txt");
+        File fisier = new File("src/Tema3/ListeGrafOrientat.txt");
         try {
             Scanner citire = new Scanner(fisier);
             numarNoduriGrafOrientat = citire.nextInt();
@@ -33,7 +33,7 @@ public class MainTema3 {
 
     private static void citireListeGrafNeorientat()
     {
-        File fisier = new File("/Users/robertadrianbucur/Downloads/_robert99_adrian27-alggraf-a2ef82ab94b5/AlgGrafTeme/src/Tema3/ListeGrafNeorientat.txt");
+        File fisier = new File("src/Tema3/ListeGrafNeorientat.txt");
         try {
             Scanner citire = new Scanner(fisier);
             numarNoduriGrafNeorientat = citire.nextInt();

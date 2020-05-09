@@ -40,7 +40,7 @@ public class Labirint extends JPanel {
 
     public void citireMatrice() {
 
-        File fisier = new File("/Users/robertadrianbucur/Downloads/_robert99_adrian27-alggraf-a2ef82ab94b5/AlgGrafTeme/src/Tema2/Labirint.txt");
+        File fisier = new File("src/Tema2/Labirint.txt");
         try {
             Scanner citire = new Scanner(fisier);
             int numarLinii = citire.nextInt();

@@ -17,7 +17,7 @@ public class Graf {
 
     public Graf() {
         try {
-            Scanner scan = new Scanner(new File("/Users/robertadrianbucur/Downloads/_robert99_adrian27-alggraf-a2ef82ab94b5/AlgGrafTeme/src/Tema6/Graf.txt"));
+            Scanner scan = new Scanner(new File("src/Tema6/Graf.txt"));
             numarNoduri = Integer.parseInt(scan.nextLine());
             numarArce = Integer.parseInt(scan.nextLine());
             for (int indice = 0; indice < numarNoduri; ++indice) {

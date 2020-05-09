@@ -17,7 +17,7 @@ public class ReprezentareGraf {
     public void citireMatriceAdiacenta() {
 
         try {
-            File fisier = new File("/Users/robertadrianbucur/Downloads/_robert99_adrian27-alggraf-a2ef82ab94b5/AlgGrafTeme/src/Tema1/MatriceAdiacenta.txt");
+            File fisier = new File("src/Tema1/MatriceAdiacenta.txt");
             Scanner citire = new Scanner(fisier);
             int numarNoduri = citire.nextInt();
             for (int linie = 0; linie < numarNoduri; linie++) {
@@ -44,7 +44,7 @@ public class ReprezentareGraf {
     public void citireListeAdiacenta() {
 
         try {
-            File fisier = new File("/Users/robertadrianbucur/Downloads/_robert99_adrian27-alggraf-a2ef82ab94b5/AlgGrafTeme/src/Tema1/ListeAdiacenta.txt");
+            File fisier = new File("src/Tema1/ListeAdiacenta.txt");
             Scanner citire = new Scanner(fisier);
             int numarNoduri = citire.nextInt();
             for (int nod = 0; nod < numarNoduri; nod++) {

@@ -11,7 +11,7 @@ public class MainTema4 {
 
     private static void citireListeAdiacenta() {
 
-        File fisier = new File("/Users/robertadrianbucur/Downloads/_robert99_adrian27-alggraf-a2ef82ab94b5/AlgGrafTeme/src/Tema4/ListeAdiacenta.txt");
+        File fisier = new File("src/Tema4/ListeAdiacenta.txt");
         try {
             Scanner citire = new Scanner(fisier);
             numarNoduri = citire.nextInt();
@@ -32,7 +32,7 @@ public class MainTema4 {
 
     private static void citireMatriceCosturi() {
 
-        File fisier = new File("/Users/robertadrianbucur/Downloads/_robert99_adrian27-alggraf-a2ef82ab94b5/AlgGrafTeme/src/Tema4/ListeCosturi.txt");
+        File fisier = new File("src/Tema4/ListeCosturi.txt");
         try {
             Scanner citire = new Scanner(fisier);
             numarNoduri = citire.nextInt();
