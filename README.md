@@ -1,5 +1,5 @@
 # Graph Algorithms
-## Laboratory topics made in Java
+## Laboratory topics made in *Java*
 1. Drawing a graph
 2. Maze
 3. Topological sorting + Connected components + Strongly Connected Components
